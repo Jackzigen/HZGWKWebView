@@ -15,6 +15,14 @@
 		04C092312029A07E00182235 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C092302029A07E00182235 /* main.m */; };
 		04C0923B2029A07F00182235 /* HZGWKWebViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C0923A2029A07F00182235 /* HZGWKWebViewTests.m */; };
 		04C092462029A07F00182235 /* HZGWKWebViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C092452029A07F00182235 /* HZGWKWebViewUITests.m */; };
+		04C092552029A09600182235 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C092542029A09600182235 /* WebKit.framework */; };
+		04C0925F2029A0DC00182235 /* WebViewJavascriptBridgeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C092572029A0DC00182235 /* WebViewJavascriptBridgeBase.m */; };
+		04C092602029A0DC00182235 /* WKWebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C092582029A0DC00182235 /* WKWebViewJavascriptBridge.m */; };
+		04C092612029A0DC00182235 /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C092592029A0DC00182235 /* WebViewJavascriptBridge.m */; };
+		04C092622029A0DC00182235 /* WebViewJavascriptBridge_JS.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C0925C2029A0DC00182235 /* WebViewJavascriptBridge_JS.m */; };
+		04C09265202A9D3100182235 /* WKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C09264202A9D3100182235 /* WKWebViewController.m */; };
+		04C09268202AEBEA00182235 /* WKWebViewBridgeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C09267202AEBEA00182235 /* WKWebViewBridgeViewController.m */; };
+		04C0926A202AEDC800182235 /* ExampleApp.html in Resources */ = {isa = PBXBuildFile; fileRef = 04C09269202AEDC800182235 /* ExampleApp.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,20 @@
 		04C092412029A07F00182235 /* HZGWKWebViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HZGWKWebViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C092452029A07F00182235 /* HZGWKWebViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HZGWKWebViewUITests.m; sourceTree = "<group>"; };
 		04C092472029A07F00182235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C092542029A09600182235 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		04C092572029A0DC00182235 /* WebViewJavascriptBridgeBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridgeBase.m; sourceTree = "<group>"; };
+		04C092582029A0DC00182235 /* WKWebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		04C092592029A0DC00182235 /* WebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		04C0925A2029A0DC00182235 /* WebViewJavascriptBridge_JS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge_JS.h; sourceTree = "<group>"; };
+		04C0925B2029A0DC00182235 /* WebViewJavascriptBridgeBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridgeBase.h; sourceTree = "<group>"; };
+		04C0925C2029A0DC00182235 /* WebViewJavascriptBridge_JS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge_JS.m; sourceTree = "<group>"; };
+		04C0925D2029A0DC00182235 /* WebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		04C0925E2029A0DC00182235 /* WKWebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		04C09263202A9D3100182235 /* WKWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKWebViewController.h; sourceTree = "<group>"; };
+		04C09264202A9D3100182235 /* WKWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKWebViewController.m; sourceTree = "<group>"; };
+		04C09266202AEBEA00182235 /* WKWebViewBridgeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKWebViewBridgeViewController.h; sourceTree = "<group>"; };
+		04C09267202AEBEA00182235 /* WKWebViewBridgeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKWebViewBridgeViewController.m; sourceTree = "<group>"; };
+		04C09269202AEDC800182235 /* ExampleApp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ExampleApp.html; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04C092552029A09600182235 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,9 +105,11 @@
 			isa = PBXGroup;
 			children = (
 				04C092202029A07E00182235 /* HZGWKWebView */,
+				04C092562029A0DC00182235 /* WebViewJavascriptBridge */,
 				04C092392029A07F00182235 /* HZGWKWebViewTests */,
 				04C092442029A07F00182235 /* HZGWKWebViewUITests */,
 				04C0921F2029A07E00182235 /* Products */,
+				04C092532029A09500182235 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +130,11 @@
 				04C092222029A07E00182235 /* AppDelegate.m */,
 				04C092242029A07E00182235 /* ViewController.h */,
 				04C092252029A07E00182235 /* ViewController.m */,
+				04C09263202A9D3100182235 /* WKWebViewController.h */,
+				04C09264202A9D3100182235 /* WKWebViewController.m */,
+				04C09266202AEBEA00182235 /* WKWebViewBridgeViewController.h */,
+				04C09267202AEBEA00182235 /* WKWebViewBridgeViewController.m */,
+				04C09269202AEDC800182235 /* ExampleApp.html */,
 				04C092272029A07E00182235 /* Main.storyboard */,
 				04C0922A2029A07E00182235 /* Assets.xcassets */,
 				04C0922C2029A07E00182235 /* LaunchScreen.storyboard */,
@@ -130,6 +160,29 @@
 				04C092472029A07F00182235 /* Info.plist */,
 			);
 			path = HZGWKWebViewUITests;
+			sourceTree = "<group>";
+		};
+		04C092532029A09500182235 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04C092542029A09600182235 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04C092562029A0DC00182235 /* WebViewJavascriptBridge */ = {
+			isa = PBXGroup;
+			children = (
+				04C0925E2029A0DC00182235 /* WKWebViewJavascriptBridge.h */,
+				04C092582029A0DC00182235 /* WKWebViewJavascriptBridge.m */,
+				04C0925D2029A0DC00182235 /* WebViewJavascriptBridge.h */,
+				04C092592029A0DC00182235 /* WebViewJavascriptBridge.m */,
+				04C0925A2029A0DC00182235 /* WebViewJavascriptBridge_JS.h */,
+				04C0925C2029A0DC00182235 /* WebViewJavascriptBridge_JS.m */,
+				04C0925B2029A0DC00182235 /* WebViewJavascriptBridgeBase.h */,
+				04C092572029A0DC00182235 /* WebViewJavascriptBridgeBase.m */,
+			);
+			path = WebViewJavascriptBridge;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,6 +294,7 @@
 				04C0922E2029A07E00182235 /* LaunchScreen.storyboard in Resources */,
 				04C0922B2029A07E00182235 /* Assets.xcassets in Resources */,
 				04C092292029A07E00182235 /* Main.storyboard in Resources */,
+				04C0926A202AEDC800182235 /* ExampleApp.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,9 +319,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04C0925F2029A0DC00182235 /* WebViewJavascriptBridgeBase.m in Sources */,
+				04C092612029A0DC00182235 /* WebViewJavascriptBridge.m in Sources */,
+				04C092602029A0DC00182235 /* WKWebViewJavascriptBridge.m in Sources */,
+				04C092622029A0DC00182235 /* WebViewJavascriptBridge_JS.m in Sources */,
 				04C092262029A07E00182235 /* ViewController.m in Sources */,
 				04C092312029A07E00182235 /* main.m in Sources */,
 				04C092232029A07E00182235 /* AppDelegate.m in Sources */,
+				04C09268202AEBEA00182235 /* WKWebViewBridgeViewController.m in Sources */,
+				04C09265202A9D3100182235 /* WKWebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
